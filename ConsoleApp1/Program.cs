@@ -2,6 +2,10 @@
 // Console.WriteLine("Hello, World!");
 
 // Console.WriteLine("Hello World!");
-Console.Write("Congratulations!");
-Console.Write("");
-Console.Write("Yeah");
+// Console.Write("Congratulations!");
+// Console.Write("");
+// Console.Write("Yeah");
+
+string name = "Mark Mwanavina";
+string greeting = "Hello" + " "+ name;
+Console.WriteLine(greeting);
