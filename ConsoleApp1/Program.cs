@@ -6,6 +6,9 @@
 // Console.Write("");
 // Console.Write("Yeah");
 
+// string name = "Mark Mwanavina";
+// string greeting = "Hello" + " "+ name;
+// Console.WriteLine(greeting);
+
 string name = "Mark Mwanavina";
-string greeting = "Hello" + " "+ name;
-Console.WriteLine(greeting);
+string greeting = $"Hello {name}";
