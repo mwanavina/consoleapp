@@ -61,7 +61,8 @@ decimal nicolasAverage = (decimal)nicolasSum / currentAssignments;
 decimal zahirahAverage = (decimal)zahirahSum / currentAssignments;
 decimal jeongAverage = (decimal)jeongSum / currentAssignments;
 
-Console.WriteLine("Sophia: " + sophiaSum);
-Console.WriteLine("Nicolas: " + nicolasSum);
-Console.WriteLine("Zahirah: " + zahirahSum);
-Console.WriteLine("Jeong: " + jeongSum);
+Console.WriteLine("Student\t\tGrades\n");
+Console.WriteLine("Sophia:\t\t" + sophiaAverage);
+Console.WriteLine("Nicolas:\t" + nicolasAverage);
+Console.WriteLine("Zahirah:\t" + zahirahAverage);
+Console.WriteLine("Jeong:\t\t" + jeongAverage);
