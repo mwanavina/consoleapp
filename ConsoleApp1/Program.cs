@@ -1,68 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
+string studentName = "Sophia Johnson";
+string course1Name = "English 101";
+string course2Name = "Algebra 101";
+string course3Name = "Biology 101";
+string course4Name = "Computer Science I";
+string course5Name = "Psychology 101";
 
-// Console.WriteLine("Hello World!");
-// Console.Write("Congratulations!");
-// Console.Write("");
-// Console.Write("Yeah");
+int course1Credit = 3;
+int course2Credit = 3;
+int course3Credit = 4;
+int course4Credit = 4;
+int course5Credit = 3;
 
-// string name = "Mark Mwanavina";
-// string greeting = "Hello" + " "+ name;
-// Console.WriteLine(greeting);
+int gradeA =4;
+int gradeB =3;
+int gradeC =2;
+int gradeD =1;
+int gradeF =0;
 
-// string name = "Mark Mwanavina";
-// string greeting = $"Hello {name}";
-
-// int age = 27;
-// string message = $"Hello {name}, you are {age} years old.";
-// Console.WriteLine(greeting);
-// Console.WriteLine(message);
-
-
-// string projectName = "ConsoleApp1";
-// Console.WriteLine($@"C:\Output\{projectName}\Data");
-
-// initialize variables - graded assignments 
-int currentAssignments = 5;
-
-int sophia1 = 93;
-int sophia2 = 87;
-int sophia3 = 98;
-int sophia4 = 95;
-int sophia5 = 100;
-
-int nicolas1 = 80;
-int nicolas2 = 83;
-int nicolas3 = 82;
-int nicolas4 = 88;
-int nicolas5 = 85;
-
-int zahirah1 = 84;
-int zahirah2 = 96;
-int zahirah3 = 73;
-int zahirah4 = 85;
-int zahirah5 = 79;
-
-int jeong1 = 90;
-int jeong2 = 92;
-int jeong3 = 98;
-int jeong4 = 100;
-int jeong5 = 97;
-
-// calculate average for each student
-
-int sophiaSum = sophia1 + sophia2 + sophia3 + sophia4 + sophia5;
-int nicolasSum = nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5;
-int zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
-int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
-
-decimal sophiaAverage = (decimal)sophiaSum / currentAssignments;
-decimal nicolasAverage = (decimal)nicolasSum / currentAssignments;  
-decimal zahirahAverage = (decimal)zahirahSum / currentAssignments;
-decimal jeongAverage = (decimal)jeongSum / currentAssignments;
-
-Console.WriteLine("Student\t\tGrades\n");
-Console.WriteLine("Sophia:\t\t" + sophiaAverage);
-Console.WriteLine("Nicolas:\t" + nicolasAverage);
-Console.WriteLine("Zahirah:\t" + zahirahAverage);
-Console.WriteLine("Jeong:\t\t" + jeongAverage);
+int course1Grade = gradeA;
+int course2Grade = gradeB;
+int course3Grade = gradeB;
+int course4Grade = gradeB;
+int course5Grade = gradeA;
